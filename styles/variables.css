@@ -1,0 +1,5 @@
+:root {
+  --main-light-color: #fff;
+  --main-dark-color: #000;
+  --main-accent-color: #dc143c;
+} /* 색상 바꿀 변수를 만듬 */
