@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
-@import url("./styles/reset.css");
-@import url("./styles/variables.css");
-
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+@import url("./stlyles/reset.css");
+@import url("./stlyles/variables.css");
+/* root에 색상을 미리 정해두고 밑에서 색상 정할 때 var로 탭하면 쓸 수 잇음 */
 body {
   background: var(--main-dark-color);
   font-family: "Noto Sans KR", serif;
@@ -31,7 +30,7 @@ header {
     .search-box {
       i {
         font-size: 22px;
-        color: #fff;
+        color: var(--main-light-color);
         cursor: pointer;
       }
     }
@@ -51,7 +50,7 @@ header {
 }
 
 .gnb {
-  color: var(--main-light-color);
+  color: #fff;
   width: 100%;
   height: 60px;
   line-height: 60px;
@@ -85,6 +84,12 @@ header {
         transform: translateX(-50%);
         transition: width 0.3s;
       }
+      &:hover {
+        color: crimson;
+        &::after {
+          width: 100%;
+        }
+      }
     }
     .submenu {
       width: 120px;
@@ -100,6 +105,8 @@ header {
           color: crimson;
           font-weight: bold;
           text-decoration: underline;
+        }
+      }
     }
   }
 }
@@ -118,7 +125,6 @@ header {
     &.active {
       opacity: 1;
     }
-
     img {
       width: 100%;
       height: 100%;
