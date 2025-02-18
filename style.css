@@ -1,13 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
-<<<<<<< HEAD
 @import url(./styles/reset.css);
 @import url(./styles/variables.css);
 
-=======
-@import url("./stlyles/reset.css");
-@import url("./stlyles/variables.css");
-/* root에 색상을 미리 정해두고 밑에서 색상 정할 때 var로 탭하면 쓸 수 잇음 */
->>>>>>> f9e11744d3bb9be93ea60c95873e233a1d930d75
 body {
   background: var(--main-dark-color);
   font-family: "Noto Sans KR", serif;
@@ -45,11 +39,7 @@ header {
 
 .menu_bg {
   width: 100%;
-<<<<<<< HEAD
   height: 290px;
-=======
-  height: 360px;
->>>>>>> f9e11744d3bb9be93ea60c95873e233a1d930d75
   max-height: 0;
   opacity: 0;
   transition: opacity 0.3s ease, max-height 0.3s ease;
@@ -60,11 +50,7 @@ header {
 }
 
 .gnb {
-<<<<<<< HEAD
   color: var(--main-light-color);
-=======
-  color: #fff;
->>>>>>> f9e11744d3bb9be93ea60c95873e233a1d930d75
   width: 100%;
   height: 60px;
   line-height: 60px;
@@ -80,11 +66,7 @@ header {
     justify-content: space-between;
     & > li > a {
       display: inline-block;
-<<<<<<< HEAD
       width: 110px;
-=======
-      width: 120px;
->>>>>>> f9e11744d3bb9be93ea60c95873e233a1d930d75
       text-align: center;
       font-weight: bold;
       position: relative;
@@ -110,11 +92,7 @@ header {
       }
     }
     .submenu {
-<<<<<<< HEAD
       width: 110px;
-=======
-      width: 120px;
->>>>>>> f9e11744d3bb9be93ea60c95873e233a1d930d75
       max-height: 0;
       opacity: 0;
       overflow: hidden;
@@ -147,10 +125,6 @@ header {
     &.active {
       opacity: 1;
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> f9e11744d3bb9be93ea60c95873e233a1d930d75
     img {
       width: 100%;
       height: 100%;
