@@ -4,7 +4,10 @@
 const tmdbCommand = "https://api.themoviedb.org/3";
 
 const fetchMoives1 = async () => {
+<<<<<<< HEAD
   // const url = `${tmdbCommand}/movie/now_playing?api_key=${API_KEY}&language=ko-kr&page=1`;
+=======
+>>>>>>> f9e11744d3bb9be93ea60c95873e233a1d930d75
   const url = `${tmdbCommand}/movie/now_playing?api_key=b95d81b88e2e3b752d3af2380e4a6e16&language=ko-kr&page=1`;
   const response = await fetch(url);
   const { results } = await response.json();
@@ -57,7 +60,11 @@ naviLis.forEach((naviLi) => {
     submenus.forEach((submenu) => {
       submenu.style.maxHeight = "270px";
       submenu.style.opacity = "1";
+<<<<<<< HEAD
       menuBg.style.maxHeight = "420px";
+=======
+      menuBg.style.maxHeight = "360px";
+>>>>>>> f9e11744d3bb9be93ea60c95873e233a1d930d75
       menuBg.style.opacity = "1";
     });
   });
